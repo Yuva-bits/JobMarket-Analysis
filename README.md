@@ -111,15 +111,15 @@ Explore relationships between skills and jobs:
 - Hover for detailed information
 
 ## Project Structure
-`job_rag_system.py`: Core RAG system implementation
-`load_all_jobs.py`: Load job data from JSON
-`build_neo4j_graph.py`: Build Neo4j graph from SQLite database
-`fix_database_values.py`: Fix data quality issues in database
-`check_neo4j.py`: Verify database contents
-`streamlit_frontend.py`: Streamlit UI application
-`integrated_app.py`: FastAPI backend (optional)
-`resume_agent.py`: Agent for resume analysis
-`jd_agent.py`: Agent for job description analysis
+- `job_rag_system.py`: Core RAG system implementation
+- `load_all_jobs.py`: Load job data from JSON
+- `build_neo4j_graph.py`: Build Neo4j graph from SQLite database
+- `fix_database_values.py`: Fix data quality issues in database
+- `check_neo4j.py`: Verify database contents
+- `streamlit_frontend.py`: Streamlit UI application
+- `integrated_app.py`: FastAPI backend (optional)
+- `resume_agent.py`: Agent for resume analysis
+- `jd_agent.py`: Agent for job description analysis
 
 ## Future Enhancements
 - Integration with live job APIs for real-time data
@@ -129,9 +129,9 @@ Explore relationships between skills and jobs:
 - Industry trends analysis
 
 ## Author
-Darshini Balamurali
-Eshwara Pandiyan
-Joel Thomas Joe
-Kirtan Prajapati
-Saiteja Rudroju
-Yuvashree Senthilmurugan
+- Darshini Balamurali
+- Eshwara Pandiyan
+- Joel Thomas Joe
+- Kirtan Prajapati
+- Saiteja Rudroju
+- Yuvashree Senthilmurugan
