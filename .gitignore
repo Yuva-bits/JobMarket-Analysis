@@ -1,0 +1,106 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv
+env/
+venv/
+ENV/
+
+# Local development settings
+.env.local
+
+# Data files
+*.db
+*.sqlite3
+tech_jobs_data.json
+jooble_jobs.db
+
+# Jupyter notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+job_extraction.log
+
+# Generated files
+*.parquet
+*.csv
+*.xlsx
+
+# Neo4j related
+neo4j/data/
+neo4j/logs/
+neo4j/import/
+neo4j/certificates/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Hugging Face cache
+.cache/
+.huggingface/
+
+# Temporary files
+tmp/
+temp/
+/tmp/
+/temp/
+
+# PDF and document files (temporarily uploaded resumes)
+uploaded_resumes/
+temp_uploads/
+*.pdf
+
+# Model files and large data
+model_config.json
+*.bin
+*.pt
+*.h5
+*.pkl
+*.joblib
+
+# Large files (may need to use Git LFS instead)
+*.zip
+*.gz
+*.tar
+
+# Authentication files
+*.pem
+*.key
+
+# API keys and secrets (in case .env is missed)
+*_key.txt
+*_secret.txt
+*_token.txt
+api_keys.py
+
+# Project specific
+integrated_app.py.bak
+streamlit_frontend.py.bak
+*_backup.*
+*.bak
+
+# Avoid committing test files
+test_*.py
+tests/test_*.py

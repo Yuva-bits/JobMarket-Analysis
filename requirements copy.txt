@@ -1,0 +1,9 @@
+autogen
+autogen-agentchat[llm,gemini]
+ag2[llm,gemini]
+flaml[autogen]
+streamlit
+pydantic
+fastapi
+pdfminer.six
+pymupdf
