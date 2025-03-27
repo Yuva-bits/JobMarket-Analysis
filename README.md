@@ -1,24 +1,24 @@
-#Job Market Intelligence System
+# Job Market Intelligence System
 A comprehensive platform for job market analysis, skill gap identification, and career planning
 
-##Overview
+## Overview
 The Job Market Intelligence System is an advanced application that leverages Retrieval-Augmented Generation (RAG) technology to provide intelligent insights about the job market. Built on a Neo4j graph database of job listings and skills, this system helps users analyze resumes, match candidates to job descriptions, explore skill relationships, and plan career transitions.
 
-##Key Features
+## Key Features
 - **Resume & Job Matching:** Upload a resume and paste a job description to get a detailed analysis of skill matches and gaps
 - **Interactive AI Chat:** Ask questions about the job market, skills, and career paths using the RAG-powered assistant
 - **Job Search by Skill:** Find relevant job positions based on specific skills or technologies
 - **Career Path Planning**:** Get personalized recommendations for transitioning between different roles
 - **Skill Network Visualization:** Explore an interactive network graph showing relationships between jobs and skills
 
-##Technology Stack
+## Technology Stack
 - **Backend:** Python with Neo4j graph database
 - **Frontend:** Streamlit for interactive user interface
 - **NLP/AI:** Hugging Face models for natural language processing
 - **Data Storage:** Neo4j graph database to represent job and skill relationships
 - **RAG System:** Custom implementation combining graph retrieval with language model generation
 
-#Setup and Installation
+# Setup and Installation
 **Prerequisites**
 - Python 3.9+
 - Neo4j database (local or remote)
@@ -74,14 +74,14 @@ The Job Market Intelligence System is an advanced application that leverages Ret
 ```bash
    streamlit run streamlit_frontend.py
 ```
-##System Architecture
+## System Architecture
 The system consists of several key components:
 1. **Job Data Processing:** Scripts to extract and process job postings
 2. **Neo4j Graph Database:** Stores jobs, skills, and their relationships
 3. **RAG System:** Combines graph database retrieval with language model generation
 4. **Streamlit UI:** User-friendly interface for interacting with the system
 
-##Usage Guide
+## Usage Guide
 **Resume & Job Matching**
 Upload a PDF resume and paste a job description to receive:
 - Skills extracted from your resume
@@ -110,7 +110,7 @@ Explore relationships between skills and jobs:
 - Size indicates demand for skills
 - Hover for detailed information
 
-##Project Structure
+## Project Structure
 `job_rag_system.py`: Core RAG system implementation
 `load_all_jobs.py`: Load job data from JSON
 `build_neo4j_graph.py`: Build Neo4j graph from SQLite database
@@ -121,14 +121,14 @@ Explore relationships between skills and jobs:
 `resume_agent.py`: Agent for resume analysis
 `jd_agent.py`: Agent for job description analysis
 
-##Future Enhancements
+## Future Enhancements
 - Integration with live job APIs for real-time data
 - Personalized learning path recommendations
 - Salary insights and negotiations assistance
 - Company culture matching
 - Industry trends analysis
 
-##Author
+## Author
 Darshini Balamurali
 Eshwara Pandiyan
 Joel Thomas Joe
