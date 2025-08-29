@@ -129,9 +129,4 @@ Explore relationships between skills and jobs:
 - Industry trends analysis
 
 ## Author
-- Darshini Balamurali
-- Eshwara Pandiyan
-- Joel Thomas Joe
-- Kirtan Prajapati
-- Saiteja Rudroju
 - Yuvashree Senthilmurugan
