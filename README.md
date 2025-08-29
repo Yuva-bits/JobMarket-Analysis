@@ -128,4 +128,5 @@ Explore relationships between skills and jobs:
 - Company culture matching
 - Industry trends analysis
 
-## Author: Yuvashree Senthilmurugan
+## Author: 
+Yuvashree Senthilmurugan
