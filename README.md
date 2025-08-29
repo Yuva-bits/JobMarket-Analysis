@@ -1,4 +1,4 @@
-# Job Market Intelligence System
+# Adaptive Workforce System using Knowledge Graphs
 A comprehensive platform for job market analysis, skill gap identification, and career planning
 
 ## Overview
